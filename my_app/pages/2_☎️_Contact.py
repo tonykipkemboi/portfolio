@@ -4,8 +4,6 @@ from PIL import Image
 
 load_css()
 
-# st.write("[![Star](https://img.shields.io/github/stars/dataprofessor/links.svg?logo=github&style=social)](https://gitHub.com/tonykipkemboi/links)")
-
 col1, col2, col3 = st.columns(3)
 col2.image(Image.open('../assets/tony.png'))
 
@@ -25,3 +23,7 @@ st_button('linkedin', 'https://www.linkedin.com/in/tonykipkemboi/',
           ' Follow me on LinkedIn', icon_size)
 st_button('cup', 'https://www.buymeacoffee.com/tonykip',
           ' Buy me a Coffee', icon_size)
+
+# Credits to Chanin a.k.a. "The Data Professor" for the Linktree --> Streamlit version tutorial
+st.caption(
+    '*Thanks to Chanin for the [tutorial](https://www.youtube.com/watch?v=1AiBgm-iZO4)!*')

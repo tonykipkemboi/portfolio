@@ -1,17 +1,20 @@
 import streamlit as st
 
+# Configures the default settings of the page
 st.set_page_config(page_title="Tony Kipkemboi | DevRel Engineer",
-                   page_icon="./assets/tony.jpg", layout="wide")
+                   page_icon="🎈",
+                   layout="wide",
+                   initial_sidebar_state="expanded"
+                   )
 
-
+#  ---HEADER---
 st.markdown("# Tony Kipkemboi")
-st.markdown("## Data Engineer and Tech Content Creator")
+st.markdown("## ex-Data Engineer and Tech Content Creator")
 st.markdown("""
-    I write articles about Data, Python, Blockchain and related topics. The articles are mostly written on the [Hashnode](https://townee.hashnode.dev/) platform. Feel free to follow me for updates on future article releases. 
-    
-    Below are two recent articles you might find interesting...
+    I write articles about Data, Python, Blockchain and related topics. The articles are mostly hosted on the [Hashnode](https://townee.hashnode.dev/) platform. I also create video content hosted on [YouTube](https://www.youtube.com/c/TonyKipkemboi). Feel free to follow and subscribe for updates on future releases. 
 """)
-
+st.write('---')
+st.subheader('My recent articles...')
 with st.container():
     image_col, text_col = st.columns((1, 2))
     with image_col:
@@ -45,3 +48,47 @@ with st.container():
             """)
         st.markdown(
             "[Read more...](https://townee.hashnode.dev/what-is-a-governance-token)")
+
+st.write('---')
+st.subheader('My recent videos...')
+
+with st.container():
+    image_col, text_col = st.columns((1, 2))
+    with image_col:
+        st.image(
+            "https://i9.ytimg.com/vi_webp/vqnpYf7grro/mqdefault.webp?v=62f16261&sqp=CMysnJsG&rs=AOn4CLD66npR7XQXZQOjmitbrB7-waLTXQ")
+
+    with text_col:
+        st.subheader(
+            "Learn how to create a Python Virtual Environment for👏 the👏LAST👏TIME👏 (Beginner Friendly)")
+        st.write("""
+            In this demo, I cover:
+            - what is a python virtual environment 
+            - how to set it up 
+            - activate it, and 
+            - deactivate it
+            """)
+        st.markdown(
+            "[Watch here...](https://youtu.be/vqnpYf7grro)")
+
+with st.container():
+    image_col, text_col = st.columns((1, 2))
+    with image_col:
+        st.image(
+            "https://i9.ytimg.com/vi/8KNUwnn1MCQ/mqdefault.jpg?v=627986d3&sqp=CMysnJsG&rs=AOn4CLBQmsWlE5ars4TyxAMeuBco2Y-R4Q")
+
+    with text_col:
+        st.subheader(
+            "How I Made $132.10 with 83 Lines of Python! 🤯")
+        st.write("""
+            In this video, I share my first web3 hackathon experience and how I won a piece of the bounty price for my project. 
+
+            These are links to various topics I mention in the video:
+            - Gitcoin: https://gitcoin.co
+            - Codeless Conduct: https://codelessconduct.org/
+            - MVRV Dashboard: https://share.streamlit.io/tonykipkemboi/mvrvdashboardapp/main/app.py
+            """)
+        st.markdown(
+            "[Watch here...](https://youtu.be/vqnpYf7grro)")
+
+st.write('---')
