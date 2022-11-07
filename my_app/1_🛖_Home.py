@@ -1,4 +1,6 @@
 import streamlit as st
+from PIL import Image
+
 
 # Configures the default settings of the page
 st.set_page_config(page_title="Tony Kipkemboi | DevRel Engineer",
@@ -55,8 +57,7 @@ st.subheader('My recent videos...')
 with st.container():
     image_col, text_col = st.columns((1, 2))
     with image_col:
-        st.image(
-            "https://i9.ytimg.com/vi_webp/vqnpYf7grro/mqdefault.webp?v=62f16261&sqp=CMysnJsG&rs=AOn4CLD66npR7XQXZQOjmitbrB7-waLTXQ")
+        st.image(Image.open('./assets/Thumbnail_1.png'))
 
     with text_col:
         st.subheader(
@@ -74,8 +75,7 @@ with st.container():
 with st.container():
     image_col, text_col = st.columns((1, 2))
     with image_col:
-        st.image(
-            "https://i9.ytimg.com/vi/8KNUwnn1MCQ/mqdefault.jpg?v=627986d3&sqp=CMysnJsG&rs=AOn4CLBQmsWlE5ars4TyxAMeuBco2Y-R4Q")
+        st.image(Image.open('./assets/Thumbnail_2.png'))
 
     with text_col:
         st.subheader(
