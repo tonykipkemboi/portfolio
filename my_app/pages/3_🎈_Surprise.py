@@ -6,7 +6,7 @@ def surprised() -> None:
              use_column_width=True)
     st.subheader(
         'Excited about my new role as a Developer Relations Associate working on Streamlit🎈 at Snowflake❄️')
-    st.write('I am beyond excited to start the new role woring on an open-source product that I love with a great team!', on_click=st.snow())
+    st.write('*I am beyond excited to start the new role working on an open-source product that I love with a great team!*', on_click=st.snow())
     snowflake, streamlit = st.columns(2)
 
     with snowflake:
