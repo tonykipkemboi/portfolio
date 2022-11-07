@@ -3,7 +3,7 @@ from PIL import Image
 
 
 # Configures the default settings of the page
-st.set_page_config(page_title="Tony Kipkemboi | DevRel Engineer",
+st.set_page_config(page_title="Tony Kipkemboi | DevX Engineer",
                    page_icon="🎈",
                    layout="wide",
                    initial_sidebar_state="expanded"
