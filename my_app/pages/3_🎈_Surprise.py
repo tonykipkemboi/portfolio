@@ -2,7 +2,7 @@ import streamlit as st
 
 
 def surprised() -> None:
-    st.image('../assets/snowflake.png',
+    st.image('./assets/snowflake.png',
              use_column_width=True)
     st.subheader(
         'I am a Developer Relations Engineer working on Streamlit🎈 @Snowflake❄️')
