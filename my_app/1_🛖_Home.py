@@ -24,7 +24,7 @@ with st.container():
 
     with text_col:
         st.subheader(
-            "How to Query The Graph Protocol for On-Chain Data using Python")
+            "How to Query The Graph Protocol for On-Chain Data Using Python")
         st.write("""
             A step-by-step guide on querying subgraphs using Python, GraphQL, and subgrounds
             
