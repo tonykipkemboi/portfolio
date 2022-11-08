@@ -64,10 +64,8 @@ with st.container():
             "Learn How to Create a Python Virtual Environment for👏 the👏LAST👏TIME👏 (Beginner Friendly)")
         st.write("""
             In this demo, I cover:
-            - what is a Python virtual environment 
-            - how to set it up 
-            - activate it, and 
-            - deactivate it
+            - Python virtual environments
+            - The setup, activation, and deactivation processes for Python virtual environments
             """)
         st.markdown(
             "[Watch here...](https://youtu.be/vqnpYf7grro)")
