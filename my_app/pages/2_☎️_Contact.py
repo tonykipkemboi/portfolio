@@ -4,8 +4,10 @@ from PIL import Image
 
 load_css()
 
+# Create 3 columns on the page
 col1, col2, col3 = st.columns(3)
 
+# Use middle column to load content and ignore the other 2
 col2.image(Image.open('./assets/tony.png'))
 
 st.header('Tony Kipkemboi')

@@ -9,12 +9,14 @@ st.set_page_config(page_title="Tony Kipkemboi | DevRel",
                    initial_sidebar_state="expanded"
                    )
 
-#  ---HEADER---
+# Introduction
 st.markdown("# Tony Kipkemboi")
 st.markdown("## ex-Data Engineer and Tech Content Creator")
 st.markdown("""
     I write articles about data, Python, blockchain, and related topics. The articles are mostly hosted on the [Hashnode](https://townee.hashnode.dev/) platform. I also create video content hosted on [YouTube](https://www.youtube.com/c/TonyKipkemboi). Feel free to follow and subscribe for updates on future releases. 
 """)
+
+# Display sample portfolio articles + videos
 st.write('---')
 st.subheader('My recent articles...')
 with st.container():
