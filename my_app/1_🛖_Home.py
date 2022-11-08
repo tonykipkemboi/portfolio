@@ -13,7 +13,7 @@ st.set_page_config(page_title="Tony Kipkemboi | DevRel",
 st.markdown("# Tony Kipkemboi")
 st.markdown("## ex-Data Engineer and Tech Content Creator")
 st.markdown("""
-    I write articles about Data, Python, Blockchain and related topics. The articles are mostly hosted on the [Hashnode](https://townee.hashnode.dev/) platform. I also create video content hosted on [YouTube](https://www.youtube.com/c/TonyKipkemboi). Feel free to follow and subscribe for updates on future releases. 
+    I write articles about data, Python, blockchain, and related topics. The articles are mostly hosted on the [Hashnode](https://townee.hashnode.dev/) platform. I also create video content hosted on [YouTube](https://www.youtube.com/c/TonyKipkemboi). Feel free to follow and subscribe for updates on future releases. 
 """)
 st.write('---')
 st.subheader('My recent articles...')
@@ -26,9 +26,9 @@ with st.container():
         st.subheader(
             "How to Query The Graph Protocol for On-Chain Data using Python")
         st.write("""
-            A step-by-step guide on querying Subgraphs using Python, GraphQL, and Subgrounds
+            A step-by-step guide on querying subgraphs using Python, GraphQL, and subgrounds
             
-            The goal is for you to be able to query any Subgraph data using Python and understand the two querying methods.
+            The goal is for you to be able to query any subgraph data using Python and understand the two querying methods.
             
             """)
         st.markdown(
@@ -45,7 +45,7 @@ with st.container():
         st.write("""
             Analogical explanation of governance tokens
             
-            There are several models for DAO membership, but I will focus on Token-Based Membership. One means you can be a member of a DAO is by trading tokens in a decentralized exchange.
+            There are several models for DAO membership, but I will focus on token-based membership, which is based on the trade of tokens in a decentralized exchange.
             
             """)
         st.markdown(
@@ -61,10 +61,10 @@ with st.container():
 
     with text_col:
         st.subheader(
-            "Learn how to create a Python Virtual Environment for👏 the👏LAST👏TIME👏 (Beginner Friendly)")
+            "Learn How to Create a Python Virtual Environment for👏 the👏LAST👏TIME👏 (Beginner Friendly)")
         st.write("""
             In this demo, I cover:
-            - what is a python virtual environment 
+            - what is a Python virtual environment 
             - how to set it up 
             - activate it, and 
             - deactivate it
