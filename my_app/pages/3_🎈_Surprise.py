@@ -13,7 +13,7 @@ def surprised() -> None:
         st.info('What is Snowflake?')
         st.video('https://www.youtube.com/watch?v=xojAXXRo_S0')
     st.subheader(
-        'I share my thoughts on why I am making the switch to DevRel in [my latest article](https://townee.hashnode.dev/preview/63699d6ea1ce83db6fb71e52)!')
+        'I share my thoughts on why I am making the switch to DevRel in [my latest article](https://townee.hashnode.dev/i-am-leaving-data-engineering-for-developer-relations)!')
 
     with streamlit:
         st.info(
